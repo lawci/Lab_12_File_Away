@@ -25,11 +25,11 @@ public class FileInspector {
                     System.out.println(line);
                     lineCount++;
 
-                    // Count words (split by whitespace)
+                    // Count words
                     String[] words = line.split("\\s+");
                     wordCount += words.length;
 
-                    // Count characters (including spaces)
+                    // Count characters
                     charCount += line.length();
                 }
 
